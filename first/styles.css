@@ -1,0 +1,65 @@
+body {
+	background-color: white;
+	margin: 0;
+	padding: 10px;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	margin: 5px 5px 0 5px;
+}
+
+header div {
+	width: 30%;
+	height: 100px;
+}
+
+.secondfoot {
+}
+
+.secondfoot div {
+	height: 200px;
+	margin: auto;
+	display: inline-block;
+}
+
+.secondfoot .red {
+	width: 33.3333%;
+}
+
+.secondfoot .blue {
+	width: 66.6666%;
+}
+
+footer div {
+	height: 100px;
+	display: inline-block;
+}
+
+footer .blue {
+	width: 66.6666%;
+}
+
+footer .red {
+	width: 33.3333%
+}
+
+.red .grey {
+	height: 100%;
+	width: 70%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+footer {
+	margin-top: 10px;
+	position: relative;
+}
+
+/*	Colors*/
+.red {background-color: #E80000;}
+.blue {background-color: #2BAAFF;}
+.grey {background-color: gray;}
+/**/
